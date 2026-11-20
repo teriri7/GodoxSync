@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>神牛 X · 配对固件工具</title>
+  <link rel="stylesheet" href="app.css">
+  <script defer src="wizard.js"></script>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><i></i><i></i><i></i></div>
+  <main class="workspace">
+    <header class="titlebar">
+      <div class="identity">
+        <span class="mark" aria-hidden="true">✦</span>
+        <div>
+          <h1>配对固件<span class="title-dot">.</span></h1>
+          <p>神牛 X 防恶意引闪工具</p>
+        </div>
+      </div>
+      <nav id="steps" aria-label="制作步骤">
+        <button type="button" data-step="0"><b>1</b>设备</button>
+        <button type="button" data-step="1"><b>2</b>无线 ID</button>
+        <button type="button" data-step="2"><b>3</b>导出</button>
+      </nav>
+    </header>
+    <div class="frame">
+      <section id="stage" aria-label="当前步骤" aria-busy="true">
+        <div class="loading"><span class="spinner" aria-hidden="true"></span>正在读取固件版本目录</div>
+      </section>
+      <aside id="selection" aria-label="已选设备"></aside>
+    </div>
+    <footer class="footer">
+      <span id="caption" aria-live="polite"></span>
+      <div class="footer-actions">
+        <button type="button" class="soft" id="back">上一步</button>
+        <button type="button" class="primary" id="next" disabled>下一步 <span aria-hidden="true">→</span></button>
+      </div>
+    </footer>
+    <div id="alert" class="toast" role="status" hidden></div>
+  </main>
+  <input id="plan-file" type="file" accept=".json,application/json" hidden>
+</body>
+</html>

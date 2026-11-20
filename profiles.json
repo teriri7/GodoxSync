@@ -1,0 +1,3171 @@
+[
+  {
+    "series": "X 系列",
+    "model": "X3",
+    "variant": "C",
+    "version": "V1.38",
+    "firmware": "x-series/X3/C/V1.38/X3_C_v1.38_app.bin",
+    "size": 1021468,
+    "sha256": "45fdd9522c432f4be60a470741d3e5c12a7ee629eb2b277aed5187639f85ef62",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8004000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x10066"
+      ],
+      "register_writer": "0x8022d40",
+      "padding": [
+        "0xe8720",
+        "0xf3800"
+      ]
+    },
+    "patch": {
+      "helper": "0xe8760",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0x10066",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3-C_V1.38.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3",
+    "variant": "N",
+    "version": "V1.27",
+    "firmware": "x-series/X3/N/V1.27/X3_N_v1.27_app.bin",
+    "size": 1019248,
+    "sha256": "7bb6f844e2e4bfe2730f8d94c4a23ae56cd21767ad6b16cf2bee36311eb2bc5c",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8004000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xff4e"
+      ],
+      "register_writer": "0x8022c28",
+      "padding": [
+        "0xe8604",
+        "0xf3800"
+      ]
+    },
+    "patch": {
+      "helper": "0xe8644",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xff4e",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3-N_V1.27.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3",
+    "variant": "S",
+    "version": "V1.25",
+    "firmware": "x-series/X3/S/V1.25/X3_S_v1.25_app.bin",
+    "size": 1012268,
+    "sha256": "3cd40ef3f91369d3147c538cf6745f9308d82e14ad94c9bad9c8f129e0753e4d",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8004000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xff4e"
+      ],
+      "register_writer": "0x8022c28",
+      "padding": [
+        "0xe8604",
+        "0xf3800"
+      ]
+    },
+    "patch": {
+      "helper": "0xe8644",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xff4e",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3-S_V1.25.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3",
+    "variant": "F",
+    "version": "V1.21",
+    "firmware": "x-series/X3/F/V1.21/X3_F_v1.21_app.bin",
+    "size": 1016340,
+    "sha256": "b6ae2e80a1ac053414f27eb77965661f8fdf8781b01922260e19c2dbe28c8889",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8004000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xff4e"
+      ],
+      "register_writer": "0x8022c28",
+      "padding": [
+        "0xe8604",
+        "0xf3800"
+      ]
+    },
+    "patch": {
+      "helper": "0xe8644",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xff4e",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3-F_V1.21.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3",
+    "variant": "O",
+    "version": "V1.09",
+    "firmware": "x-series/X3/O/V1.09/X3_O_v1.09_APP.bin",
+    "size": 1011672,
+    "sha256": "bf75182a1525695797ef405c35efa1a492af156d4a87e6a9f87773599e938396",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8004000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xff16"
+      ],
+      "register_writer": "0x8022be4",
+      "padding": [
+        "0xe85c4",
+        "0xf3800"
+      ]
+    },
+    "patch": {
+      "helper": "0xe8604",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xff16",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3-O_V1.09.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3",
+    "variant": "L",
+    "version": "V1.12",
+    "firmware": "x-series/X3/L/V1.12/X3_L_v1.12_app.bin",
+    "size": 1013468,
+    "sha256": "c8b248f5ff5495c8c522908ebcea4d57fef8ac473e2b9989fdf41bde86ddfc2a",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8004000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xffa2"
+      ],
+      "register_writer": "0x8022c88",
+      "padding": [
+        "0xe8664",
+        "0xf3800"
+      ]
+    },
+    "patch": {
+      "helper": "0xe86a4",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xffa2",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_X3L_V1.12.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3Pro",
+    "variant": "C",
+    "version": "V1.22",
+    "firmware": "x-series/X3Pro/C/V1.22/X3pro_C_v1.22_app.bin",
+    "size": 1941020,
+    "sha256": "2e2b8a3b5ff70e62c4acddc406b055ea2625e4833a213e81863f96c0da5a911b",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8020000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xf040"
+      ],
+      "register_writer": "0x802e71c",
+      "padding": [
+        "0x190830",
+        "0x190a30"
+      ]
+    },
+    "patch": {
+      "helper": "0x190900",
+      "fill": "00",
+      "sites": [
+        {
+          "offset": "0xf040",
+          "stock": "0122034610b54cf268341344b4fbf3f482b0",
+          "before": "10b582b0",
+          "after": "0122"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3ProC_V1.22.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3Pro",
+    "variant": "N",
+    "version": "V1.14",
+    "firmware": "x-series/X3Pro/N/V1.14/X3pro_N_v1.14_app.bin",
+    "size": 1939048,
+    "sha256": "3ecbd50941f218c28969904ad587616ad99e7d0386b7b2feeb0c138be29ba0e5",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8020000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xf01c"
+      ],
+      "register_writer": "0x802e6f0",
+      "padding": [
+        "0x18d9e4",
+        "0x1d4000"
+      ]
+    },
+    "patch": {
+      "helper": "0x18da24",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xf01c",
+          "stock": "0122034610b54cf268341344b4fbf3f482b0",
+          "before": "10b582b0",
+          "after": "0122"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3ProN_V1.14.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3Pro",
+    "variant": "S",
+    "version": "V1.11",
+    "firmware": "x-series/X3Pro/S/V1.11/X3pro_S_v1.11_app.bin",
+    "size": 1931868,
+    "sha256": "4b3465cab7975749dd3d109aa1b6f60ee065402869aa88d7b007325def90e103",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8020000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xf0c0"
+      ],
+      "register_writer": "0x802e79c",
+      "padding": [
+        "0x1a9378",
+        "0x1d4000"
+      ]
+    },
+    "patch": {
+      "helper": "0x1a93b8",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xf0c0",
+          "stock": "0122034610b54cf268341344b4fbf3f482b0",
+          "before": "10b582b0",
+          "after": "0122"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3ProS_V1.11.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3Pro",
+    "variant": "F",
+    "version": "V1.08",
+    "firmware": "x-series/X3Pro/F/V1.08/X3pro_F_v1.08_app.bin",
+    "size": 1935892,
+    "sha256": "182ddff907ed7554492b477da10beb97616ec4d319b4ffe3d0b2de6a5d7cafa8",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8020000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xf05c"
+      ],
+      "register_writer": "0x802e738",
+      "padding": [
+        "0x1a5460",
+        "0x1d4000"
+      ]
+    },
+    "patch": {
+      "helper": "0x1a54a0",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xf05c",
+          "stock": "0122034610b54cf268341344b4fbf3f482b0",
+          "before": "10b582b0",
+          "after": "0122"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3ProF_V1.08.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X3Pro",
+    "variant": "O",
+    "version": "V1.08",
+    "firmware": "x-series/X3Pro/O/V1.08/X3pro_O_v1.08_app.bin",
+    "size": 1931404,
+    "sha256": "875206b6716e1c3f81b4d6306a3433c4efcea9834b78ca97dd48784e2da1606d",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8020000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xf004"
+      ],
+      "register_writer": "0x802e6e0",
+      "padding": [
+        "0x1a72a8",
+        "0x1d4000"
+      ]
+    },
+    "patch": {
+      "helper": "0x1a72e8",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xf004",
+          "stock": "0122034610b54cf268341344b4fbf3f482b0",
+          "before": "10b582b0",
+          "after": "0122"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X3ProO_V1.08.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X1R",
+    "variant": "C",
+    "version": "V26",
+    "firmware": "x-series/X1R/C/V26/X1R-C_V26.bin",
+    "size": 24024,
+    "sha256": "caceafa3695ecb6ca02743c80350d5d852974fde5c0556ef4985a9f89bc95559",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0x40fc"
+      ],
+      "register_writer": "0x80087de"
+    },
+    "patch": {
+      "helper": "0x5dd8",
+      "limit": "0x6000",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0x40fc",
+          "stock": "0c4a10b5411c1046fbf7f4ff",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20240605/1717559449937187.rar"
+  },
+  {
+    "series": "X 系列",
+    "model": "X1R",
+    "variant": "N",
+    "version": "V22",
+    "firmware": "x-series/X1R/N/V22/X1R-N_V22.bin",
+    "size": 25040,
+    "sha256": "7acda1a174715e2d04ccd3eacf6c26eac6857e811865bfdf08edc2c929833c82",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0x42a4"
+      ],
+      "register_writer": "0x8008afe"
+    },
+    "patch": {
+      "helper": "0x61d0",
+      "limit": "0x6400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0x42a4",
+          "stock": "0c4a10b5411c1046fbf720ff",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20240605/1717559399175570.rar"
+  },
+  {
+    "series": "X 系列",
+    "model": "X1R",
+    "variant": "S",
+    "version": "V05",
+    "firmware": "x-series/X1R/S/V05/X1R-S_V05.bin",
+    "size": 23884,
+    "sha256": "fd9a48f69b6df59f99df97c803e767b6101a57ebb2856394e54d1c677bf913f3",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0x40e0"
+      ],
+      "register_writer": "0x80083f2"
+    },
+    "patch": {
+      "helper": "0x5d4c",
+      "limit": "0x6000",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0x40e0",
+          "stock": "0c4a10b5411c1046fcf702f8",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20240605/1717559370500989.rar"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "C Z01",
+    "version": "V1.4",
+    "firmware": "x-series/X2T/C Z01/V1.4/X2T-C_V1.4.bin",
+    "size": 70172,
+    "sha256": "98b7c58ec4ccefdfd179e1ed18b9a622517ec8c4ca875a3f382ea71145b0d2eb",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xa2ce"
+      ],
+      "register_writer": "0x801137a"
+    },
+    "patch": {
+      "helper": "0x1121c",
+      "limit": "0x11400",
+      "sites": [
+        {
+          "offset": "0xa2ce",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20230728/1690527115180061.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "C Z02",
+    "version": "V1.01",
+    "firmware": "x-series/X2T/C Z02/V1.01/X2TC_Z02_V1.01.bin",
+    "size": 79748,
+    "sha256": "d185e4101ad61422f2ac2bc9ee7ade1e6c245c6002361dfd50ed5f9e7b90210b",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8005000",
+      "payload_start": "0x0",
+      "additional_page": "0x13800",
+      "settings_start": "0x801f000",
+      "architecture": "thumb1",
+      "divider": "0x80050ec",
+      "sync_entries": [
+        "0xc84c"
+      ],
+      "register_writer": "0x8015cce"
+    },
+    "patch": {
+      "helper": "0x13758",
+      "limit": "0x13c00",
+      "thumb1_divider": "0x80050ec",
+      "md5": "0x13758",
+      "sites": [
+        {
+          "offset": "0xc84c",
+          "stock": "0c4a10b5411c1046f3f74afc",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X2TC_V1.01_Z02.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "C 无 Z01",
+    "version": "V1.4",
+    "firmware": "x-series/X2T/C No Z01/V1.4/X2T-C_V1.4.bin",
+    "size": 73264,
+    "sha256": "81fe5ad50d9d97c1948c91c9b1037cf0d5fb68b0cd61a2c64eb84c426f2c8378",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xb610"
+      ],
+      "register_writer": "0x801240a"
+    },
+    "patch": {
+      "helper": "0x11e30",
+      "limit": "0x12000",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xb610",
+          "stock": "0c4a10b5411c1046f4f76afd",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220706/1657088492409617.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "N Z01",
+    "version": "V1.33",
+    "firmware": "x-series/X2T/N Z01/V1.33/X2TN_Z01_V1.33.bin",
+    "size": 66900,
+    "sha256": "55b8f3562de277cdf91fa398b0bcb3a5f5b5d59265d2e6041d8891304baa7b7d",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x954a"
+      ],
+      "register_writer": "0x80103d2"
+    },
+    "patch": {
+      "helper": "0x10554",
+      "limit": "0x10800",
+      "sites": [
+        {
+          "offset": "0x954a",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X2T-N-Z01_V1.33.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "N 无 Z01",
+    "version": "V1.43",
+    "firmware": "x-series/X2T/N No Z01/V1.43/X2TN_V1.43.bin",
+    "size": 69064,
+    "sha256": "8c8b4832ca24a5fe4198fa30246c40cab6439d000ad3c6801c97dfb8778e72ed",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xa890"
+      ],
+      "register_writer": "0x8011366"
+    },
+    "patch": {
+      "helper": "0x10dc8",
+      "limit": "0x11000",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xa890",
+          "stock": "0c4a10b5411c1046f5f72afc",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_X2T-N_V1.43.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "S Z01",
+    "version": "V1.4",
+    "firmware": "x-series/X2T/S Z01/V1.4/X2T-S_V1.4.bin",
+    "size": 58628,
+    "sha256": "478476447ff8d55496180facf578662dcbf9a1af0cf21f79df048b7df0a76efc",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x98fa"
+      ],
+      "register_writer": "0x800e842"
+    },
+    "patch": {
+      "helper": "0xe504",
+      "limit": "0xe800",
+      "sites": [
+        {
+          "offset": "0x98fa",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20230728/1690527175299139.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "S 无 Z01",
+    "version": "V1.4",
+    "firmware": "x-series/X2T/S No Z01/V1.4/X2T-S_V1.4.bin",
+    "size": 62576,
+    "sha256": "5ef99293fb2182bd2b686e49b767b96384935efbd7a5a0323eae293d85f35c98",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xaca4"
+      ],
+      "register_writer": "0x800fbe6"
+    },
+    "patch": {
+      "helper": "0xf470",
+      "limit": "0xf800",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xaca4",
+          "stock": "0c4a10b5411c1046f5f720fa",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220706/1657088381429457.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "F",
+    "version": "V1.40",
+    "firmware": "x-series/X2T/F/V1.40/X2_Fuji_V1.40.bin",
+    "size": 65428,
+    "sha256": "b9db231c8d11a35ea6c26c3ca51b3c77fa62e5dd4b432edb4d421c6c95f8cecf",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "additional_page": "0x10000",
+      "settings_start": "0x801f000",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xaffc"
+      ],
+      "register_writer": "0x8010612"
+    },
+    "patch": {
+      "helper": "0xff94",
+      "limit": "0x10400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xaffc",
+          "stock": "0c4a10b5411c1046f5f774f8",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220905/1662366875588894.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "O",
+    "version": "V1.3",
+    "firmware": "x-series/X2T/O/V1.3/X2T-O_V1.3.bin",
+    "size": 58092,
+    "sha256": "ef518d14eff1870c3f88d8ea2fa7430a23813ec95537edb7c2dc44e948d32142",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0x9d88"
+      ],
+      "register_writer": "0x800eaaa"
+    },
+    "patch": {
+      "helper": "0xe2ec",
+      "limit": "0xe400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0x9d88",
+          "stock": "0c4a10b5411c1046f6f7aef9",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220706/1657088303766960.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "X2T",
+    "variant": "P",
+    "version": "V1.3",
+    "firmware": "x-series/X2T/P/V1.3/X2T-P_V1.3.bin",
+    "size": 59700,
+    "sha256": "02a95365858abe80072639e4113b910b0c4e56bf94cb8a33f085627c2c9c55d1",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xa538"
+      ],
+      "register_writer": "0x800f0f2"
+    },
+    "patch": {
+      "helper": "0xe934",
+      "limit": "0xec00",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xa538",
+          "stock": "0c4a10b5411c1046f5f7d6fd",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220803/1659489249194027.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "XPro",
+    "variant": "P",
+    "version": "V1.2",
+    "firmware": "x-series/XPro/P/V1.2/XproP_V1.2.bin",
+    "size": 49028,
+    "sha256": "771f2fa6ee2ee073caf34f4b192deee2992bb6f3420800f82ee41ebd62dd0922",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "additional_page": "0xc000",
+      "settings_start": "0x801e000",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0x8e5c"
+      ],
+      "register_writer": "0x800d59a"
+    },
+    "patch": {
+      "helper": "0xbf84",
+      "limit": "0xc400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0x8e5c",
+          "stock": "0c4a10b5411c1046f7f744f9",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220321/1647849510812601.rar"
+  },
+  {
+    "series": "X 系列",
+    "model": "XPro II",
+    "variant": "C",
+    "version": "V1.52",
+    "firmware": "x-series/XPro II/C/V1.52/XProIIC_V1.52.bin",
+    "size": 86264,
+    "sha256": "b21988ee0325a14b515acbba7171a08ee1fe507a6835800d2ae19a86f48b2f5d",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xea28"
+      ],
+      "register_writer": "0x801544a"
+    },
+    "patch": {
+      "helper": "0x150f8",
+      "limit": "0x15400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xea28",
+          "stock": "0c4a10b5411c1046f1f75efb",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_XProII-C_V1.52.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "XPro II",
+    "variant": "N",
+    "version": "V1.56",
+    "firmware": "x-series/XPro II/N/V1.56/XProIIN_V1.56.bin",
+    "size": 80560,
+    "sha256": "2b2e1174573f0cfa6fae8659aff7707ee833f87cdada0c47032660835908a6bc",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xe3f0"
+      ],
+      "register_writer": "0x8013dfe"
+    },
+    "patch": {
+      "helper": "0x13ab0",
+      "limit": "0x13c00",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xe3f0",
+          "stock": "0c4a10b5411c1046f1f77afe",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_XProII-N_V1.56.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "XPro II",
+    "variant": "S",
+    "version": "V1.39",
+    "firmware": "x-series/XPro II/S/V1.39/XProIIS_V1.39.bin",
+    "size": 79368,
+    "sha256": "f82e1943e18a7b5cc99484bd05ba2476da0db399659af4db668bd9c3426d4dc2",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xe6b8"
+      ],
+      "register_writer": "0x8013b16"
+    },
+    "patch": {
+      "helper": "0x13608",
+      "limit": "0x13800",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xe6b8",
+          "stock": "0c4a10b5411c1046f1f716fd",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_XProII-S_V1.39.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "XPro II",
+    "variant": "F",
+    "version": "V1.48",
+    "firmware": "x-series/XPro II/F/V1.48/XProIIF_V1.48.bin",
+    "size": 81388,
+    "sha256": "e06c0bef8478c2831b81a3984015178994a433fba91db3571cd2dc7e38eb9258",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xe850"
+      ],
+      "register_writer": "0x80141e6"
+    },
+    "patch": {
+      "helper": "0x13dec",
+      "limit": "0x14000",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xe850",
+          "stock": "0c4a10b5411c1046f1f74afc",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_XProII-F_V1.48.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "XPro II",
+    "variant": "O",
+    "version": "V1.48",
+    "firmware": "x-series/XPro II/O/V1.48/XProIIO_V1.48.bin",
+    "size": 75040,
+    "sha256": "ca420d386c0e52972f2da0e858f5fbefa12b7adb673a0601c27acfe124efde7a",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xd7c4"
+      ],
+      "register_writer": "0x80129a2"
+    },
+    "patch": {
+      "helper": "0x12520",
+      "limit": "0x12800",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xd7c4",
+          "stock": "0c4a10b5411c1046f2f790fc",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_XProII-O_V1.48.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "XPro II",
+    "variant": "L",
+    "version": "V1.51",
+    "firmware": "x-series/XPro II/L/V1.51/XProIIL_V1.51.bin",
+    "size": 79200,
+    "sha256": "58c3b4c43dc0070e9406f05a8973302d57d3f828839a49537684dc6958f6aa85",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xe3f4"
+      ],
+      "register_writer": "0x801393e"
+    },
+    "patch": {
+      "helper": "0x13560",
+      "limit": "0x13800",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xe3f4",
+          "stock": "0c4a10b5411c1046f1f778fe",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_XProII-L_V1.51.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "XR",
+    "variant": "通用",
+    "version": "V1.04",
+    "firmware": "x-series/XR/Universal/V1.04/XR_V1.04.bin",
+    "size": 63126,
+    "sha256": "53e3ba0abbc9e6229dfb9221236831d0a11685a637744690a8af1239de750a58",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8005000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x5986"
+      ],
+      "register_writer": "0x800e8c0"
+    },
+    "patch": {
+      "helper": "0xf670",
+      "limit": "0xf800",
+      "md5": "0xf670",
+      "sites": [
+        {
+          "offset": "0x5986",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_XR_V1.04.zip"
+  },
+  {
+    "series": "X 系列",
+    "model": "XRS",
+    "variant": "通用",
+    "version": "V1.04",
+    "firmware": "x-series/XRS/Universal/V1.04/XRS_V1.04.bin",
+    "size": 54335,
+    "sha256": "e941eec0106db5a35865d3809c402310eb37de60dd8d42758be85efea8c53422",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8005000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x488a"
+      ],
+      "register_writer": "0x800c634"
+    },
+    "patch": {
+      "helper": "0xd418",
+      "limit": "0xd800",
+      "md5": "0xd418",
+      "sites": [
+        {
+          "offset": "0x488a",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_XRS_V1.04.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1",
+    "variant": "C",
+    "version": "V2.0",
+    "firmware": "v-series/V1/C/V2.0/V1C_V2.0.bin",
+    "size": 88032,
+    "sha256": "4435dda84903cb97cfaf34f7eeb15ecb6168771d60b57da1c346e6a9ca36edfb",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xf1bc"
+      ],
+      "register_writer": "0x80156ce",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "settings_start": "0x0801f000",
+      "additional_page": "0x15800"
+    },
+    "patch": {
+      "helper": "0x157e0",
+      "limit": "0x15c00",
+      "sites": [
+        {
+          "offset": "0xf1bc",
+          "stock": "0c4a10b5411c1046f0f794ff",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_V1C_V2.0.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1",
+    "variant": "N",
+    "version": "V1.6",
+    "firmware": "v-series/V1/N/V1.6/V1N_V1.6.bin",
+    "size": 77732,
+    "sha256": "496a4b867e2e455ae228874229e45d6fa7b6478d0cd4ebaa7040f77ba2f0365b",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xdc7c"
+      ],
+      "register_writer": "0x8013422",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "settings_start": "0x0801f000",
+      "additional_page": "0x13000"
+    },
+    "patch": {
+      "helper": "0x12fa4",
+      "limit": "0x13400",
+      "sites": [
+        {
+          "offset": "0xdc7c",
+          "stock": "0c4a10b5411c1046f2f734fa",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661243696893795.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1",
+    "variant": "S",
+    "version": "V1.8",
+    "firmware": "v-series/V1/S/V1.8/V1S_V1.8.bin",
+    "size": 78500,
+    "sha256": "87a0600046e1b7c2198a7ac8fac15959bb3a5d582edf44d8e0df38706dcb917a",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xe2dc"
+      ],
+      "register_writer": "0x801365a",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x132a4",
+      "limit": "0x13400",
+      "sites": [
+        {
+          "offset": "0xe2dc",
+          "stock": "0c4a10b5411c1046f1f704ff",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661243732170320.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1",
+    "variant": "F",
+    "version": "V1.3",
+    "firmware": "v-series/V1/F/V1.3/V1F_V1.3.bin",
+    "size": 79352,
+    "sha256": "8b84e5b631df274f7314271cf82419aabd8524e073a031bc1d94c2b32e76fe22",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xe244"
+      ],
+      "register_writer": "0x8013a0e",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x135f8",
+      "limit": "0x13800",
+      "sites": [
+        {
+          "offset": "0xe244",
+          "stock": "0c4a10b5411c1046f1f750ff",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661243783155073.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1",
+    "variant": "O",
+    "version": "V1.3",
+    "firmware": "v-series/V1/O/V1.3/V1O_V1.3.bin",
+    "size": 75096,
+    "sha256": "9ed1c310f4f398a5bd55e9a0832f3e75fc84bc206eb8ea6f2cb80093c2acd2fe",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xd474"
+      ],
+      "register_writer": "0x8012a22",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x12558",
+      "limit": "0x12800",
+      "sites": [
+        {
+          "offset": "0xd474",
+          "stock": "0c4a10b5411c1046f2f738fe",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661243810644035.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1",
+    "variant": "P",
+    "version": "V1.2",
+    "firmware": "v-series/V1/P/V1.2/V1P_V1.2.bin",
+    "size": 76432,
+    "sha256": "d2a1604af8125606d7cff46a4b6775be6263ef036e02f295ea562e4d957fe3e4",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xdd94"
+      ],
+      "register_writer": "0x801301a",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x12a90",
+      "limit": "0x12c00",
+      "sites": [
+        {
+          "offset": "0xdd94",
+          "stock": "0c4a10b5411c1046f2f7a8f9",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220321/1647845275216589.rar"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1 mid",
+    "variant": "N",
+    "version": "V1.01",
+    "firmware": "v-series/V1 mid/N/V1.01/V1midN_V1.01.bin",
+    "size": 753706,
+    "sha256": "438f775317fb48c194eba8f2d572f62df660b23ecef0ce7bd56a032e0375a074",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "padding": [
+        "0x83de0",
+        "0xb0000"
+      ],
+      "id_registers": [
+        "r4",
+        "r0"
+      ],
+      "child": "0xb0000",
+      "sync_entries": [
+        "0xc1bc",
+        "0x1522a"
+      ],
+      "register_writer": "0x802cf30"
+    },
+    "patch": {
+      "helper": "0x83e20",
+      "fill": "ff",
+      "md5": "0xb8000",
+      "sites": [
+        {
+          "offset": "0xc1bc",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x1522a",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V1midN_V1.01.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1 Pro",
+    "variant": "C",
+    "version": "V1.2",
+    "firmware": "v-series/V1 Pro/C/V1.2/V1Cpro_V1.2.bin",
+    "size": 89932,
+    "sha256": "613ab0834694c34cd0802a12e11c9885be0d69df4b96006a5a9487f8e02c110c",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "additional_page": "0x16000",
+      "settings_start": "0x801f000",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xf8f4"
+      ],
+      "register_writer": "0x8015fa2"
+    },
+    "patch": {
+      "helper": "0x15f4c",
+      "limit": "0x16400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xf8f4",
+          "stock": "0c4a10b5411c1046f0f7f8fb",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V1Pro-C_V1.2.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1 Pro",
+    "variant": "N",
+    "version": "V1.2",
+    "firmware": "v-series/V1 Pro/N/V1.2/V1Npro_V1.2.bin",
+    "size": 80828,
+    "sha256": "00cf8eb8e143bd594aed736428ba3bdc80d0488c5d2f04c08b86c714a9f8b024",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "additional_page": "0x13c00",
+      "settings_start": "0x801f000",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xe59c"
+      ],
+      "register_writer": "0x8013ec6"
+    },
+    "patch": {
+      "helper": "0x13bbc",
+      "limit": "0x14000",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xe59c",
+          "stock": "0c4a10b5411c1046f1f7a4fd",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V1Pro-N_V1.2.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1 Pro",
+    "variant": "S",
+    "version": "V1.2",
+    "firmware": "v-series/V1 Pro/S/V1.2/V1Spro_V1.2.bin",
+    "size": 81732,
+    "sha256": "c655d98f744b362841219841fff869f2ff57053be6ff721c7298da0c7f7ce92a",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "additional_page": "0x14000",
+      "settings_start": "0x801f000",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xebe0"
+      ],
+      "register_writer": "0x8014182"
+    },
+    "patch": {
+      "helper": "0x13f44",
+      "limit": "0x14400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xebe0",
+          "stock": "0c4a10b5411c1046f1f782fa",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V1Pro-S_V1.2.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1 Pro",
+    "variant": "F",
+    "version": "V1.1",
+    "firmware": "v-series/V1 Pro/F/V1.1/V1Fpro_V1.1.bin",
+    "size": 82660,
+    "sha256": "7fed345cacb3767304f99e1cce362cabf7c48f4ee8349ebbf2e5592b8bd32aee",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xebe4"
+      ],
+      "register_writer": "0x801458a"
+    },
+    "patch": {
+      "helper": "0x142e4",
+      "limit": "0x14400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xebe4",
+          "stock": "0c4a10b5411c1046f1f780fa",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V1Pro-F_V1.1.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V1 Pro",
+    "variant": "O",
+    "version": "V1.1",
+    "firmware": "v-series/V1 Pro/O/V1.1/V1Opro_V1.1.bin",
+    "size": 78428,
+    "sha256": "dbb35727149594c62957659e3d423aa5689eb3517e3b4a2a4d4e5305f9d90e67",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0xde20"
+      ],
+      "register_writer": "0x80135ae"
+    },
+    "patch": {
+      "helper": "0x1325c",
+      "limit": "0x13400",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0xde20",
+          "stock": "0c4a10b5411c1046f2f762f9",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V1Pro-O_V1.1.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V100",
+    "variant": "C",
+    "version": "V1.11",
+    "firmware": "v-series/V100/C/V1.11/V100C_V1.11.bin",
+    "size": 1007224,
+    "sha256": "a3a3107a7198eca7a5b642b299f27e99ccb7f002c29e19f21b48f1b22def75cd",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xc134",
+        "0x1599a"
+      ],
+      "register_writer": "0x802cde8",
+      "padding": [
+        "0xb4b7c",
+        "0xf0000"
+      ]
+    },
+    "patch": {
+      "helper": "0xb4bbc",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xc134",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x1599a",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V100C_V1.11.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V100",
+    "variant": "N",
+    "version": "V1.05",
+    "firmware": "v-series/V100/N/V1.05/V100N_V1.05.bin",
+    "size": 1015808,
+    "sha256": "f0c033412ac92a062c59f664fb933203c93386da3c80f405988ff4d421ee7b00",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xc370",
+        "0x150a6"
+      ],
+      "register_writer": "0x802c618",
+      "padding": [
+        "0xb406c",
+        "0xf0000"
+      ]
+    },
+    "patch": {
+      "helper": "0xb40ac",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xc370",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x150a6",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V100N_V1.05.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V100",
+    "variant": "S",
+    "version": "V1.06",
+    "firmware": "v-series/V100/S/V1.06/V100S_V1.06.bin",
+    "size": 1013192,
+    "sha256": "f11908d90e71f53fa5cf19329d27b330bffbe12ed5172376b5f82a1b977ecd02",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xcc90",
+        "0x15bea"
+      ],
+      "register_writer": "0x802cfb4",
+      "padding": [
+        "0xb4af8",
+        "0xf0000"
+      ]
+    },
+    "patch": {
+      "helper": "0xb4b38",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xcc90",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x15bea",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V100S_V1.06.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V100",
+    "variant": "F",
+    "version": "V1.03",
+    "firmware": "v-series/V100/F/V1.03/V100F_V1.03.bin",
+    "size": 1002732,
+    "sha256": "fe92fbacce29e2ec22784371900f73bbe3e5052c49cc7e66845c276ab5fc7787",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xcf18",
+        "0x15a5a"
+      ],
+      "register_writer": "0x802cf4c",
+      "padding": [
+        "0xb4b68",
+        "0xf0000"
+      ]
+    },
+    "patch": {
+      "helper": "0xb4ba8",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xcf18",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x15a5a",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V100F_V1.03.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V100",
+    "variant": "O",
+    "version": "V1.04",
+    "firmware": "v-series/V100/O/V1.04/V100O_V1.04.bin",
+    "size": 999956,
+    "sha256": "ed75d761ba9ddc52f9bbc8855480a75298de539f2f48582d0157390e85c3b732",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xc474",
+        "0x14fce"
+      ],
+      "register_writer": "0x802c450",
+      "padding": [
+        "0xb3e20",
+        "0xf0000"
+      ]
+    },
+    "patch": {
+      "helper": "0xb3e60",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xc474",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x14fce",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V100O_V1.04.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V480",
+    "variant": "C",
+    "version": "V1.03",
+    "firmware": "v-series/V480/C/V1.03/V480C_V1.03.bin",
+    "size": 753705,
+    "sha256": "eb699a6e9b91036d2f28fcf7d45581d9f404d4a2025b274384f5ecb55eb47618",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xc358",
+        "0x160ca"
+      ],
+      "register_writer": "0x802dd00",
+      "padding": [
+        "0x85180",
+        "0xb0000"
+      ]
+    },
+    "patch": {
+      "helper": "0x851c0",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xc358",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x160ca",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ],
+      "md5": "0xb8000"
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V480C_V1.03.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V480",
+    "variant": "N",
+    "version": "V1.04",
+    "firmware": "v-series/V480/N/V1.04/V480N_V1.04.bin",
+    "size": 753705,
+    "sha256": "05c99d39df6b06c7f3918e2ce8be678ed4525069e38ccca29375050e8a4c2e37",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xc3a0",
+        "0x15572"
+      ],
+      "register_writer": "0x802d23c",
+      "padding": [
+        "0x8434c",
+        "0xb0000"
+      ]
+    },
+    "patch": {
+      "helper": "0x8438c",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xc3a0",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x15572",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ],
+      "md5": "0xb8000"
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V480N_V1.04.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V480",
+    "variant": "S",
+    "version": "V1.03",
+    "firmware": "v-series/V480/S/V1.03/V480S_V1.03.bin",
+    "size": 753705,
+    "sha256": "5697f2778c237750ba16f6c5020090ceda26f31c859f133f900abdc52ce727ae",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xcc04",
+        "0x16126"
+      ],
+      "register_writer": "0x802dcb4",
+      "padding": [
+        "0x84f10",
+        "0xb0000"
+      ]
+    },
+    "patch": {
+      "helper": "0x84f50",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xcc04",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x16126",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ],
+      "md5": "0xb8000"
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V480S_V1.03.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V480",
+    "variant": "F",
+    "version": "V1.03",
+    "firmware": "v-series/V480/F/V1.03/V480F_V1.03.bin",
+    "size": 753705,
+    "sha256": "84ca232f50a62ceb2d9b24017a3b447a7154bf63f6461ef546a30a6b29077ebf",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xcee4",
+        "0x15e56"
+      ],
+      "register_writer": "0x802dab4",
+      "padding": [
+        "0x84e34",
+        "0xb0000"
+      ]
+    },
+    "patch": {
+      "helper": "0x84e74",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xcee4",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x15e56",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ],
+      "md5": "0xb8000"
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V480F_V1.03.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V480",
+    "variant": "O",
+    "version": "V1.03",
+    "firmware": "v-series/V480/O/V1.03/V480O_V1.03.bin",
+    "size": 753705,
+    "sha256": "8363b98b347953716bbdaf331ec6873111012082139eee78f443708222ce358d",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8008000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xc430",
+        "0x152e6"
+      ],
+      "register_writer": "0x802cee8",
+      "padding": [
+        "0x841e4",
+        "0xb0000"
+      ]
+    },
+    "patch": {
+      "helper": "0x84224",
+      "fill": "ff",
+      "sites": [
+        {
+          "offset": "0xc430",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x152e6",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ],
+      "md5": "0xb8000"
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_V480O_V1.03.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 II",
+    "variant": "C",
+    "version": "V1.8",
+    "firmware": "v-series/V860 II/C/V1.8/V860IIC_V1.8.fri",
+    "size": 267285,
+    "sha256": "9fcf897f1ccf924438ad17d79d6f636bc07e05c1243e1c69d5c444c9d36c96df",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "V860IIC",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 95008,
+      "sync_entries": [
+        "0xfeb6"
+      ],
+      "register_writer": "0xfa0a",
+      "divider": "0x15f4e"
+    },
+    "patch": {
+      "helper": "0x17320",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0xfeb6",
+          "stock": "682f70e06f5f7f4f88e693ec0e94a7af"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20211210/1639121522989568.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 II",
+    "variant": "N",
+    "version": "V1.9",
+    "firmware": "v-series/V860 II/N/V1.9/V860IIN V1.9.fri",
+    "size": 227407,
+    "sha256": "3e96019c8292ad4be09d8532572899f617dc2eed2625f742b34b6d9d4077f643",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "V860IIN",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 80828,
+      "sync_entries": [
+        "0xe1c6"
+      ],
+      "register_writer": "0xdd6e",
+      "divider": "0x12ab6"
+    },
+    "patch": {
+      "helper": "0x13bbc",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0xe1c6",
+          "stock": "682f70e06f5f7f4f88e693ec0e945b95"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20211126/1637908543694061.rar"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 II",
+    "variant": "S",
+    "version": "V1.7",
+    "firmware": "v-series/V860 II/S/V1.7/V860IIS_V1.7.fri",
+    "size": 224506,
+    "sha256": "4d09e5ec63d3e9789b2bbb26ba250bafd4fffe9018d11dcfd92f4293d14c598c",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "V860IIS",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 79800,
+      "sync_entries": [
+        "0xed92"
+      ],
+      "register_writer": "0xe972",
+      "divider": "0x1285c"
+    },
+    "patch": {
+      "helper": "0x137b8",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0xed92",
+          "stock": "682f70e06f5f7f4f88e693ec0e942e94"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20211126/1637908704185345.rar"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 II",
+    "variant": "F",
+    "version": "V1.2",
+    "firmware": "v-series/V860 II/F/V1.2/V860IIF_V1.2.fri",
+    "size": 223615,
+    "sha256": "7c3555a002d66e93f90d38a31f794dba2e41719ab5c9801aa1f2e95efe1d0ea4",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "V860IIF",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 79478,
+      "sync_entries": [
+        "0x109e0"
+      ],
+      "register_writer": "0x10578",
+      "divider": "0x12690"
+    },
+    "patch": {
+      "helper": "0x13676",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0x109e0",
+          "stock": "682f70e06f5f7f4f88e693ec0e944893"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20211126/1637909013254226.rar"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 II",
+    "variant": "O",
+    "version": "V1.4",
+    "firmware": "v-series/V860 II/O/V1.4/V860IIO_V1.4.fri",
+    "size": 208822,
+    "sha256": "bacbbb78674d3a697032bdca11fa5be3e0c68eaea0bfdedcd98772c86e91f385",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "V860IIO",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 74220,
+      "sync_entries": [
+        "0xf308"
+      ],
+      "register_writer": "0xeee8",
+      "divider": "0x11292"
+    },
+    "patch": {
+      "helper": "0x121ec",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0xf308",
+          "stock": "682f70e06f5f7f4f88e693ec0e944989"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20211126/1637909127716028.rar"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 III",
+    "variant": "C",
+    "version": "V1.3",
+    "firmware": "v-series/V860 III/C/V1.3/V860IIIC_V1.3.bin",
+    "size": 87612,
+    "sha256": "8530a7e85ce1098d64d72d7ea4a28f3fdfb489e3d39da49be1ffa166f6ba270d",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xf2e8"
+      ],
+      "register_writer": "0x80157ee",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x1563c",
+      "limit": "0x15800",
+      "sites": [
+        {
+          "offset": "0xf2e8",
+          "stock": "0c4a10b5411c1046f0f7fefe",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661245937251058.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 III",
+    "variant": "N",
+    "version": "V1.1",
+    "firmware": "v-series/V860 III/N/V1.1/V860IIIN_V1.1.bin",
+    "size": 78584,
+    "sha256": "8237c55dc83153085c1d7090caf840ec744372807d52245a2362f88522974586",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xdf84"
+      ],
+      "register_writer": "0x8013722",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x132f8",
+      "limit": "0x13400",
+      "sites": [
+        {
+          "offset": "0xdf84",
+          "stock": "0c4a10b5411c1046f2f7b0f8",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661246136100735.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 III",
+    "variant": "S",
+    "version": "V1.1",
+    "firmware": "v-series/V860 III/S/V1.1/V860IIIS_V1.1.bin",
+    "size": 79300,
+    "sha256": "bdc8f3547808d121f15a6c58b9363c5792c957c2dce2a16b203276ab078d0b20",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xe5b8"
+      ],
+      "register_writer": "0x8013926",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x135c4",
+      "limit": "0x13800",
+      "sites": [
+        {
+          "offset": "0xe5b8",
+          "stock": "0c4a10b5411c1046f1f796fd",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661246183396610.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 III",
+    "variant": "F",
+    "version": "V1.1",
+    "firmware": "v-series/V860 III/F/V1.1/V860IIIF_V1.1.bin",
+    "size": 80432,
+    "sha256": "7f83b9dac413f8d16b4838aff079ffb10b5056718b5c86482c3097ef227d5308",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xe5fc"
+      ],
+      "register_writer": "0x8013df2",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x13a30",
+      "limit": "0x13c00",
+      "sites": [
+        {
+          "offset": "0xe5fc",
+          "stock": "0c4a10b5411c1046f1f774fd",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661246211122696.zip"
+  },
+  {
+    "series": "V 系列",
+    "model": "V860 III",
+    "variant": "O",
+    "version": "V1.1",
+    "firmware": "v-series/V860 III/O/V1.1/V860IIIO_V1.1.bin",
+    "size": 76080,
+    "sha256": "ee0fc201ef0b22a106ad6ecc86d36abc91743932beaa64a6fa672a9e45afafed",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xd7d0"
+      ],
+      "register_writer": "0x8012da6",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x12930",
+      "limit": "0x12c00",
+      "sites": [
+        {
+          "offset": "0xd7d0",
+          "stock": "0c4a10b5411c1046f2f78afc",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661246241346250.zip"
+  },
+  {
+    "series": "TT 系列",
+    "model": "TT350",
+    "variant": "P",
+    "version": "V1.2",
+    "firmware": "tt-series/TT350/P/V1.2/TT350P_V1.2.bin",
+    "size": 46628,
+    "sha256": "6bbab90f9808fd0cfb18b650c888459af46c94c25b0242eb9c5d871c84965658",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0x8e78"
+      ],
+      "register_writer": "0x800db86"
+    },
+    "patch": {
+      "helper": "0xb624",
+      "limit": "0xb800",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0x8e78",
+          "stock": "0c4a10b5411c1046f7f736f9",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220321/1647847682341594.rar"
+  },
+  {
+    "series": "TT 系列",
+    "model": "TT685",
+    "variant": "C",
+    "version": "V3.4",
+    "firmware": "tt-series/TT685/C/V3.4/TT685C_V3.4.fri",
+    "size": 267477,
+    "sha256": "6da886c6fe899771b8f71ea44620a633fe2ed2542be7106cd98c5aa9e987c65b",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "TT685C",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 95078,
+      "sync_entries": [
+        "0xfedc"
+      ],
+      "register_writer": "0xfa30",
+      "divider": "0x15f94"
+    },
+    "patch": {
+      "helper": "0x17366",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0xfedc",
+          "stock": "682f70e06f5f7f4f88e693ec0e94caaf"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20220222/1645512222658115.rar"
+  },
+  {
+    "series": "TT 系列",
+    "model": "TT685",
+    "variant": "N",
+    "version": "V3.3",
+    "firmware": "tt-series/TT685/N/V3.3/TT685N V3.3.fri",
+    "size": 227579,
+    "sha256": "b8e6d90d535f1fbc4c0b4e7bc70ffbe867b0bf6fa0d39d240d90e6cdc1345fb6",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "TT685N",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 80888,
+      "sync_entries": [
+        "0xe1e4"
+      ],
+      "register_writer": "0xdd8c",
+      "divider": "0x12af2"
+    },
+    "patch": {
+      "helper": "0x13bf8",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0xe1e4",
+          "stock": "682f70e06f5f7f4f88e693ec0e947995"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20220222/1645511901283884.rar"
+  },
+  {
+    "series": "TT 系列",
+    "model": "TT685",
+    "variant": "S",
+    "version": "V2.1",
+    "firmware": "tt-series/TT685/S/V2.1/TT685S_V2.1.fri",
+    "size": 219683,
+    "sha256": "95e51a6c4ab2a784ba249caceace20ad869b090a590047f84c28e7c890dcda89",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "TT685S",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 78084,
+      "sync_entries": [
+        "0xe92a"
+      ],
+      "register_writer": "0xe50a",
+      "divider": "0x123a8"
+    },
+    "patch": {
+      "helper": "0x13104",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0xe92a",
+          "stock": "682f70e06f5f7f4f88e693ec0e94d491"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20220222/1645511745431704.rar"
+  },
+  {
+    "series": "TT 系列",
+    "model": "TT685",
+    "variant": "F",
+    "version": "V1.1",
+    "firmware": "tt-series/TT685/F/V1.1/TT685F_V1.1.fri",
+    "size": 218681,
+    "sha256": "1d996d7ad35ae6ae90211f1c7c46cb763a1812fd0d72594e5a718e692d9c3a2f",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "TT685F",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 77726,
+      "sync_entries": [
+        "0x1056a"
+      ],
+      "register_writer": "0x10102",
+      "divider": "0x121b8"
+    },
+    "patch": {
+      "helper": "0x12f9e",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0x1056a",
+          "stock": "682f70e06f5f7f4f88e693ec0e94dc90"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20220818/1660806681921874.zip"
+  },
+  {
+    "series": "TT 系列",
+    "model": "TT685",
+    "variant": "O",
+    "version": "V1.2",
+    "firmware": "tt-series/TT685/O/V1.2/TT685O_V1.2.fri",
+    "size": 203802,
+    "sha256": "693cb81108f0c695c2255c25922f5d1f937e9ca39e011f03f02ac2b7c427622a",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "architecture": "avr",
+      "container": "FRI",
+      "fri_model": "TT685O",
+      "base": "0x0",
+      "payload_start": "0x20",
+      "flash_size": 72438,
+      "sync_entries": [
+        "0xee66"
+      ],
+      "register_writer": "0xea46",
+      "divider": "0x10d9c"
+    },
+    "patch": {
+      "helper": "0x11af6",
+      "limit": "0x18000",
+      "sites": [
+        {
+          "offset": "0xee66",
+          "stock": "682f70e06f5f7f4f88e693ec0e94ce86"
+        }
+      ]
+    },
+    "download_url": "https://godox.com/static/upload/other/20220222/1645510007378878.rar"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD100Pro",
+    "variant": "通用",
+    "version": "V1.2",
+    "firmware": "ad-series/AD100Pro/Universal/V1.2/AD100pro_V1.2.bin",
+    "size": 50248,
+    "sha256": "3a3d3b917615bb20339f6c355ebe66d8d94e8199509c1e820007542c1ebf4e7c",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0x8758"
+      ],
+      "register_writer": "0x800cd32"
+    },
+    "patch": {
+      "helper": "0xc448",
+      "limit": "0xc800",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0x8758",
+          "stock": "0c4a10b5411c1046f7f7c6fc",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661242199590630.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD1200Pro",
+    "variant": "通用",
+    "version": "V1.2",
+    "firmware": "ad-series/AD1200Pro/Universal/V1.2/AD1200pro_V1.2.bin",
+    "size": 71220,
+    "sha256": "10568f9f98dbfc638e5bbcd916a31cb24edea0664e80c1e0c6ee4e0df5c44d98",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x80030f0",
+      "sync_entries": [
+        "0x9bc4"
+      ],
+      "register_writer": "0x800e252"
+    },
+    "patch": {
+      "helper": "0x11634",
+      "limit": "0x11800",
+      "thumb1_divider": "0x80030f0",
+      "sites": [
+        {
+          "offset": "0x9bc4",
+          "stock": "0c4a10b5411c1046f6f790fa",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20220823/1661242497847578.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD200",
+    "variant": "通用",
+    "version": "V2.6",
+    "firmware": "ad-series/AD200/Universal/V2.6/AD200 V2.6.dfu",
+    "size": 40921,
+    "sha256": "aafad9dc8fc739c1681ad473366bdd10b36ffa1fac91737218f0cf133a1b4af2",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x125",
+      "container": "DfuSe",
+      "architecture": "thumb1",
+      "sync_entries": [
+        "0x816c"
+      ],
+      "register_writer": "0x800c06e",
+      "divider": "0x80030f4"
+    },
+    "patch": {
+      "helper": "0x9ea4",
+      "limit": "0xa000",
+      "thumb1_divider": "0x80030f4",
+      "sites": [
+        {
+          "offset": "0x816c",
+          "stock": "0c4a10b5411c1046f7f7beff",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_AD200_V2.6.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD200Pro",
+    "variant": "Version A",
+    "version": "V1.6",
+    "firmware": "ad-series/AD200Pro/Version A/V1.6/AD200pro_V1.60(for Version A) .bin",
+    "size": 45636,
+    "sha256": "7cf66503f996e45348538b43aacb081bf2448d34e5cb02e8086c5cdfba7b7b2a",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x89a4"
+      ],
+      "register_writer": "0x800c8d2",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0xb244",
+      "limit": "0xb400",
+      "sites": [
+        {
+          "offset": "0x89a4",
+          "stock": "0c4a10b5411c1046f7f7a0fb",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20240527/1716792268606958.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD200Pro",
+    "variant": "无 Version A",
+    "version": "V1.6",
+    "firmware": "ad-series/AD200Pro/Without Version A/V1.6/AD200pro_V1.60.bin",
+    "size": 46380,
+    "sha256": "fc0f77f1eb1c9f9d6f1f96d15daa5722ae33a57fceffe1da02739530dd798bd0",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x89ac"
+      ],
+      "register_writer": "0x800caa2",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0xb52c",
+      "limit": "0xb800",
+      "sites": [
+        {
+          "offset": "0x89ac",
+          "stock": "0c4a10b5411c1046f7f79cfb",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/static/upload/other/20240527/1716792367912567.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD200Pro II",
+    "variant": "通用",
+    "version": "V1.05",
+    "firmware": "ad-series/AD200Pro II/Universal/V1.05/AD200ProII_V1.05.bin",
+    "size": 387248,
+    "sha256": "30783860ede87b4bd30678cf820a8f2f6e0d8bc505344d42de1d3561c69f400b",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0xd226"
+      ],
+      "register_writer": "0x8024eb4",
+      "frequency_table": "0x3427e",
+      "fr433": {
+        "sync_entry": "0xf3a",
+        "writer": "0x8017206",
+        "frequency_table": "0x34263"
+      }
+    },
+    "patch": {
+      "helper": "0x5e8b0",
+      "limit": "0x5ec00",
+      "sites": [
+        {
+          "offset": "0xd226",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_AD200ProII_V1.05.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD300Pro",
+    "variant": "通用",
+    "version": "V1.3",
+    "firmware": "ad-series/AD300Pro/Universal/V1.3/AD300pro_V1.30.bin",
+    "size": 44220,
+    "sha256": "e3be6a63581adb2b3d3225286706ee14d185f8a8ddd18c50ea50069a98765932",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x8548"
+      ],
+      "register_writer": "0x800c47a",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0xacbc",
+      "limit": "0xb000",
+      "sites": [
+        {
+          "offset": "0x8548",
+          "stock": "0c4a10b5411c1046f7f7cefd",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_AD300pro_V1.3.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD300Pro II",
+    "variant": "通用",
+    "version": "V1.05",
+    "firmware": "ad-series/AD300Pro II/Universal/V1.05/AD300ProII_App_V1_05.bin",
+    "size": 423504,
+    "sha256": "04ce6640f12da299bb205165900fa09228f5352e26184bef778b267fa5a718b3",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x10c1e"
+      ],
+      "register_writer": "0x8029074",
+      "frequency_table": "0x2f14a",
+      "fr433": {
+        "sync_entry": "0x14ba",
+        "writer": "0x801819e",
+        "frequency_table": "0x2f1ad"
+      },
+      "id_register": "r6",
+      "register_seed": {
+        "r4": 50024
+      }
+    },
+    "patch": {
+      "helper": "0x67650",
+      "limit": "0x67800",
+      "sites": [
+        {
+          "offset": "0x10c1e",
+          "stock": "761cb4fbf6f4",
+          "before": "3046"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_AD300ProII_V1.05.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD400Pro",
+    "variant": "通用",
+    "version": "V1.5",
+    "firmware": "ad-series/AD400Pro/Universal/V1.5/AD400pro_V1.50.bin",
+    "size": 72992,
+    "sha256": "7eea75d17dea9d0ab8345ea4410148305ffb755b241132e3c5facd936a429dcb",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x9afc"
+      ],
+      "register_writer": "0x800e1fa",
+      "architecture": "thumb1",
+      "divider": "0x80030f0"
+    },
+    "patch": {
+      "helper": "0x11d20",
+      "limit": "0x12000",
+      "sites": [
+        {
+          "offset": "0x9afc",
+          "stock": "0c4a10b5411c1046f6f7f4fa",
+          "before": "10b5"
+        }
+      ],
+      "thumb1_divider": "0x80030f0"
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_AD400pro_V1.5.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD400Pro II",
+    "variant": "通用",
+    "version": "V1.21",
+    "firmware": "ad-series/AD400Pro II/Universal/V1.21/AD400ProII_APP_v1.21.bin",
+    "size": 422012,
+    "sha256": "627081f7e06caa2a66120f9f0628823779b3197beb33c6118ca295f22f129112",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "sync_entries": [
+        "0x110ba"
+      ],
+      "register_writer": "0x8029868",
+      "frequency_table": "0x30ba4",
+      "fr433": {
+        "sync_entry": "0x313a",
+        "writer": "0x80193f6",
+        "frequency_table": "0x2fc74"
+      },
+      "id_register": "r6",
+      "register_seed": {
+        "r4": 50024
+      }
+    },
+    "patch": {
+      "helper": "0x6707c",
+      "limit": "0x67400",
+      "sites": [
+        {
+          "offset": "0x110ba",
+          "stock": "761cb4fbf6f4",
+          "before": "3046"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_AD400ProII_V1.21.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD600BM II",
+    "variant": "通用",
+    "version": "V1.06",
+    "firmware": "ad-series/AD600BM II/Universal/V1.06/AD600BMII_v1.06_App.bin",
+    "size": 407280,
+    "sha256": "3ef3f07671c04d146811e4366a9d52df0587607b08c1febd9ea610e2048233e0",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "id_register": "r6",
+      "register_seed": {
+        "r4": 50024
+      },
+      "frequency_table": "0x2cb90",
+      "fr433": {
+        "sync_entry": "0x2d9e",
+        "writer": "0x80173ae",
+        "frequency_table": "0x2cbf3"
+      },
+      "sync_entries": [
+        "0xee76"
+      ],
+      "register_writer": "0x8026aac"
+    },
+    "patch": {
+      "helper": "0x636f0",
+      "limit": "0x63800",
+      "sites": [
+        {
+          "offset": "0xee76",
+          "stock": "761cb4fbf6f4",
+          "before": "3046"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_AD600BMII_V1.06.zip"
+  },
+  {
+    "series": "AD 系列",
+    "model": "AD600Pro II",
+    "variant": "通用",
+    "version": "V1.13",
+    "firmware": "ad-series/AD600Pro II/Universal/V1.13/AD600PROII_v1.13.bin",
+    "size": 416116,
+    "sha256": "388518e9d8ef666dde5d36d8a70aa2038ee50ba535705c0390284a6fd3868c0e",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "id_register": "r6",
+      "register_seed": {
+        "r4": 50024
+      },
+      "frequency_table": "0x2f2f2",
+      "fr433": {
+        "sync_entry": "0x2fce",
+        "writer": "0x8018e9e",
+        "frequency_table": "0x2f61a"
+      },
+      "sync_entries": [
+        "0x10aea"
+      ],
+      "register_writer": "0x8029048"
+    },
+    "patch": {
+      "helper": "0x65974",
+      "limit": "0x65c00",
+      "sites": [
+        {
+          "offset": "0x10aea",
+          "stock": "761cb4fbf6f4",
+          "before": "3046"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_AD600ProII_V1.13.zip"
+  },
+  {
+    "series": "其他闪光灯",
+    "model": "iT30Pro",
+    "variant": "C",
+    "version": "V1.02",
+    "firmware": "other-flashes/iT30Pro/C/V1.02/iT30ProC_V1.02.bin",
+    "size": 688172,
+    "sha256": "2d52743d84fe6f23eb4fefae8a426e56eeee9b1ec02ce28e84df06da26e36bed",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "padding": [
+        "0x8fd60",
+        "0xa0000"
+      ],
+      "id_registers": [
+        "r4",
+        "r0"
+      ],
+      "child": "0xa0000",
+      "sync_entries": [
+        "0xc9d4",
+        "0x153b6"
+      ],
+      "register_writer": "0x802f654"
+    },
+    "patch": {
+      "helper": "0x8fda0",
+      "fill": "ff",
+      "md5": "0xa8000",
+      "sites": [
+        {
+          "offset": "0xc9d4",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x153b6",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_iT30ProC_V1.02.zip"
+  },
+  {
+    "series": "其他闪光灯",
+    "model": "iT30Pro",
+    "variant": "N",
+    "version": "V1.02",
+    "firmware": "other-flashes/iT30Pro/N/V1.02/iT30ProN_V1.02.bin",
+    "size": 688172,
+    "sha256": "a6920833d267834e7ff41f537ce8b897bab47234013731ae79b4affcbf41847e",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "padding": [
+        "0x8ef70",
+        "0xa0000"
+      ],
+      "id_registers": [
+        "r4",
+        "r0"
+      ],
+      "child": "0xa0000",
+      "sync_entries": [
+        "0xc41c",
+        "0x148c6"
+      ],
+      "register_writer": "0x802ebdc"
+    },
+    "patch": {
+      "helper": "0x8efb0",
+      "fill": "ff",
+      "md5": "0xa8000",
+      "sites": [
+        {
+          "offset": "0xc41c",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x148c6",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_iT30ProN_V1.02.zip"
+  },
+  {
+    "series": "其他闪光灯",
+    "model": "iT30Pro",
+    "variant": "S",
+    "version": "V1.07",
+    "firmware": "other-flashes/iT30Pro/S/V1.07/iT30ProS_V1.07.bin",
+    "size": 688182,
+    "sha256": "f54deb64665cadb4927bfdf74553402cd33b6f392c3e74a5129bc2377fd16f55",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "padding": [
+        "0x8fa3c",
+        "0xa0000"
+      ],
+      "id_registers": [
+        "r4",
+        "r0"
+      ],
+      "child": "0xa0000",
+      "sync_entries": [
+        "0xc804",
+        "0x153e6"
+      ],
+      "register_writer": "0x802f5bc"
+    },
+    "patch": {
+      "helper": "0x8fa7c",
+      "fill": "ff",
+      "md5": "0xa8000",
+      "sites": [
+        {
+          "offset": "0xc804",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x153e6",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_iT30ProS_V1.07.zip"
+  },
+  {
+    "series": "其他闪光灯",
+    "model": "iT30Pro",
+    "variant": "F",
+    "version": "V1.02",
+    "firmware": "other-flashes/iT30Pro/F/V1.02/iT30ProF_V1.02.bin",
+    "size": 688172,
+    "sha256": "ab5ff861068a9e12b114a1c8bfac944b582773305b32876a3970fc883385525a",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "padding": [
+        "0x8f888",
+        "0xa0000"
+      ],
+      "id_registers": [
+        "r4",
+        "r0"
+      ],
+      "child": "0xa0000",
+      "sync_entries": [
+        "0xccc0",
+        "0x15152"
+      ],
+      "register_writer": "0x802f40c"
+    },
+    "patch": {
+      "helper": "0x8f8c8",
+      "fill": "ff",
+      "md5": "0xa8000",
+      "sites": [
+        {
+          "offset": "0xccc0",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x15152",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_iT30ProF_V1.02.zip"
+  },
+  {
+    "series": "其他闪光灯",
+    "model": "iT30Pro",
+    "variant": "O",
+    "version": "V1.01",
+    "firmware": "other-flashes/iT30Pro/O/V1.01/iT30ProO_V1.01.bin",
+    "size": 688172,
+    "sha256": "e79a76931020e9ac15b10fe73706ff32571db577d284ad2bc08e2ca25347e8d1",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "padding": [
+        "0x8f53c",
+        "0xa0000"
+      ],
+      "id_registers": [
+        "r4",
+        "r0"
+      ],
+      "child": "0xa0000",
+      "sync_entries": [
+        "0xc9d0",
+        "0x14f62"
+      ],
+      "register_writer": "0x802f1ac"
+    },
+    "patch": {
+      "helper": "0x8f57c",
+      "fill": "ff",
+      "md5": "0xa8000",
+      "sites": [
+        {
+          "offset": "0xc9d0",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x14f62",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_iT30ProO_V1.01.zip"
+  },
+  {
+    "series": "其他闪光灯",
+    "model": "iT30Pro",
+    "variant": "L",
+    "version": "V1.01",
+    "firmware": "other-flashes/iT30Pro/L/V1.01/iT30ProL_V1.01.bin",
+    "size": 688172,
+    "sha256": "c2ff69653a063d888b77bea478fd56461832b020e82600b18c6c935224d06820",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x800c000",
+      "payload_start": "0x0",
+      "padding": [
+        "0x8f540",
+        "0xa0000"
+      ],
+      "id_registers": [
+        "r4",
+        "r0"
+      ],
+      "child": "0xa0000",
+      "sync_entries": [
+        "0xc830",
+        "0x14ce2"
+      ],
+      "register_writer": "0x802efb8"
+    },
+    "patch": {
+      "helper": "0x8f580",
+      "fill": "ff",
+      "md5": "0xa8000",
+      "sites": [
+        {
+          "offset": "0xc830",
+          "stock": "4cf26830611cb0fbf1f4",
+          "before": "2046"
+        },
+        {
+          "offset": "0x14ce2",
+          "stock": "4cf26831401cb1fbf0f4"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_iT30proL_V1.01.zip"
+  },
+  {
+    "series": "其他闪光灯",
+    "model": "P2400",
+    "variant": "通用",
+    "version": "V2.7",
+    "firmware": "other-flashes/P2400/Universal/V2.7/P2400_GODOX_V2.7.bin",
+    "size": 86340,
+    "sha256": "fab545092583fc6bcd3ac5f5cb7436c9baf94b5a84d4654073477d89d387f4b3",
+    "status": "已通过软件模拟",
+    "analysis": {
+      "base": "0x8003000",
+      "payload_start": "0x0",
+      "architecture": "thumb1",
+      "divider": "0x800329c",
+      "sync_entries": [
+        "0xe21c"
+      ],
+      "register_writer": "0x8013770"
+    },
+    "patch": {
+      "helper": "0x15144",
+      "limit": "0x15400",
+      "thumb1_divider": "0x800329c",
+      "sites": [
+        {
+          "offset": "0xe21c",
+          "stock": "10b501460b48491cf2f73af8",
+          "before": "10b5"
+        }
+      ]
+    },
+    "download_url": "https://www.godox.com.cn/Downloads/Godox_Firmware_P2400_V2.7.zip"
+  }
+]

@@ -1,0 +1,79 @@
+name: Build Windows portable ZIP
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2025
+    env:
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13.17"
+          architecture: x64
+
+      - name: Build the portable package
+        run: python -B build_portable.py
+
+      - name: Test the bundled runtime and download configuration
+        shell: pwsh
+        run: |
+          $PSNativeCommandUseErrorActionPreference = $true
+          $archive = "dist/GodoxSync-Windows-x64.zip"
+          $unpacked = Join-Path $env:RUNNER_TEMP "GodoxSync-smoke"
+          python -B -m zipfile --test $archive
+          python -B -m zipfile --extract $archive $unpacked
+          $homeDir = Join-Path $unpacked "GodoxSync"
+          $runtime = Join-Path $homeDir "runtime"
+          $env:TCL_LIBRARY = Join-Path $runtime "tcl/tcl8.6"
+          $env:TK_LIBRARY = Join-Path $runtime "tcl/tk8.6"
+          $env:Path = "$env:SystemRoot\System32;$env:SystemRoot"
+          @'
+          import ssl
+          import sys
+          from dataclasses import replace
+          from hashlib import sha256
+          from io import BytesIO
+          from pathlib import Path
+          from tkinter import Tcl
+          from zipfile import ZipFile
+
+          from app import _catalog
+          from firmware import FIRMWARES, ROOT
+          from firmware_download import _check_url, _zip_image
+
+          assert sys.flags.isolated
+          assert Tcl().eval("info patchlevel").startswith("8.6.")
+          ssl.create_default_context()
+          catalog = _catalog()["firmwares"]
+          assert catalog and all(item["available"] for item in catalog)
+          assert all(_check_url(item.download_url) for item in FIRMWARES.values())
+          assert not any(
+              path.is_file() and path.suffix.lower() in {".bin", ".dfu", ".fri", ".rar"}
+              for path in ROOT.rglob("*")
+          )
+          sample = b"synthetic data for ZIP extraction"
+          item = replace(next(iter(FIRMWARES.values())), size=len(sample),
+                         digest=sha256(sample).hexdigest())
+          archive = BytesIO()
+          with ZipFile(archive, "w") as package:
+              package.writestr("fixtures/" + item.filename, sample)
+          assert _zip_image(archive.getvalue(), item) == sample
+          print(f"Portable package contains {len(FIRMWARES)} download profiles.")
+          '@ | & (Join-Path $runtime "python.exe") -B -
+
+      - name: Upload the ready-to-use ZIP
+        uses: actions/upload-artifact@v7
+        with:
+          path: dist/GodoxSync-Windows-x64.zip
+          archive: false
+          if-no-files-found: error

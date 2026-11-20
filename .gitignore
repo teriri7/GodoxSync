@@ -1,0 +1,9 @@
+/dist/
+/firmwares/
+/firmware-audit-local/
+/固件/
+__pycache__/
+*.bin
+*.dfu
+*.fri
+*.rar
